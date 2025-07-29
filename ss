@@ -1987,6 +1987,8 @@ btn("NEW ANMATION", function()
         local afkrleg = getPartFromMesh(76010149115685,103160995675216)
         local AfkrlegWeld = getPartJoint(afkrleg)
 
+
+
 	addmode("default", {
 		idle = function()
 			local rY, lY = raycastlegs()
